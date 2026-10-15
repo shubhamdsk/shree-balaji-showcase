@@ -4,10 +4,10 @@
 <p><strong>A phone-first digital product catalogue, quotation builder, paint calculator, and store management platform built for an authorised Asian Paints dealer in Kotul.</strong></p>
 
 <p>
-<a href="https://shree-balaji.shreebalajipaints.workers.dev/" target="_blank">
+<a href="https://shree-balaji.shreebalajipaints.workers.dev/" target="_blank" rel="noopener noreferrer">
 <img src="https://img.shields.io/badge/Live_Storefront-Visit_Site-2563eb?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Site" />
 </a>
-<a href="https://software-studio.nexoralab.workers.dev/" target="_blank">
+<a href="https://software-studio.nexoralab.workers.dev/" target="_blank" rel="noopener noreferrer">
 <img src="https://img.shields.io/badge/Built_By-Nexora_Studio-0f172a?style=for-the-badge" alt="Nexora Studio" />
 </a>
 <img src="https://img.shields.io/badge/Status-Production_(Delivered)-16a34a?style=for-the-badge" alt="Delivered" />
@@ -26,7 +26,7 @@
 
 ---
 
-> **🔒 Intellectual Property Notice:** This repository serves as a **public case study & architecture showcase**. Because this is a commercial production system built for a live retail client by **[Nexora Studio](https://software-studio.nexoralab.workers.dev/)**, the proprietary source code is maintained in a private repository.
+> **🔒 Intellectual Property Notice:** This repository serves as a **public case study & architecture showcase**. Because this is a commercial production system built for a live retail client by **<a href="https://software-studio.nexoralab.workers.dev/" target="_blank" rel="noopener noreferrer">Nexora Studio</a>**, the proprietary source code is maintained in a private repository.
 
 ---
 
@@ -82,3 +82,19 @@ flowchart LR
     D -->|Serverless Pool| E[(Neon PostgreSQL DB)]
     B -->|Optimized Edge Image Caching| F[Next.js Image Pipeline]
     A -->|Formatted Quotation List| G[WhatsApp Business API]
+```
+## ⚡ Technical Highlights
+
+* **Edge-First Deployment:** Hosted on **Cloudflare Workers** for near-zero cold starts and fast page loads on mobile connections.
+* **Type-Safe Data Layer:** Powered by **Neon Serverless PostgreSQL** and **Drizzle ORM** for minimal bundle overhead on edge runtimes.
+* **Bilingual & Accessible UX:** Semantic HTML5 landmarks, screen-reader support, and native `lang="mr"` Devanagari typography alongside English navigation.
+
+---
+
+## 📬 Architected & Delivered By
+
+**Shubham Deshmukh** — Founder & Lead Developer at **<a href="https://software-studio.nexoralab.workers.dev/" target="_blank" rel="noopener noreferrer">Nexora Studio</a>**
+
+* 🌐 **Studio Website:** <a href="https://software-studio.nexoralab.workers.dev/" target="_blank" rel="noopener noreferrer">software-studio.nexoralab.workers.dev</a>
+* 💼 **LinkedIn:** <a href="https://www.linkedin.com/in/shubham-deshmukh1720" target="_blank" rel="noopener noreferrer">linkedin.com/in/shubham-deshmukh1720</a>
+* 💻 **GitHub:** <a href="https://github.com/shubhamdsk" target="_blank" rel="noopener noreferrer">@shubhamdsk</a>
